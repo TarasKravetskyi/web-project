@@ -10,12 +10,52 @@
 </head>
 
 <body>
-
-    <header data-include="partials/header.partial.html"></header>
+    <div class="header">
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="img/figmalogo.png" alt="figma logo">
+        </div>
+        <div class="social-icons">
+            <img src="img/Twitter.png" alt="twitter logo">
+            <img src="img/facebook.png" alt="facebook logo">
+            <img src="img/Instagram.png" alt="Instagram logo">
+        </div>
+        <div>
+            <h1>The best products start with Figma</h1>
+        </div>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
+        <div>
+            <button>Try for free</button>
+        </div>
+    </div>
 
     <main>
-        <section data-include="partials/features.partial.html"></section>
+        <h2>Features</h2>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers.</p>
 
+        <div class="item">
+            <img src="img/SquareAndCircul.png" alt="SquareAndCircul">
+            <h3>OpenType features variable fonts</h3>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+        <div class="item">
+            <img src="img/pencil.png" alt="pencil">
+            <h3>Design with real data</h3>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+        <div class="item">
+            <img src="img/brush.png" alt="brush">
+            <h3>Fastest way to take action</h3>
+            <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
         <section>
             <img src="img/woman.png" alt="woman">
         </section>
@@ -36,7 +76,6 @@
             <input type="text" name="email" placeholder="Your E-mail" required>
             <button type="submit">Subscribe</button>
         </section>
-
         <section>
             <h2>Partners</h2>
             <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
@@ -74,8 +113,8 @@
             </div>
             <button type="submit">Try for free</button>
         </section>
-
     </main>
+    
     <footer>
     </footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
